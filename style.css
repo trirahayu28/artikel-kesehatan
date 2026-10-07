@@ -1,0 +1,177 @@
+/* =========================
+   EXTERNAL CSS
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+.logo {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #008f4c;
+}
+
+.logo span {
+    color: #222;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #008f4c;
+}
+
+
+/* =========================
+   ARTIKEL
+   ========================= */
+
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.kategori {
+    color: #008f4c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+main p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   GAMBAR
+   ========================= */
+
+.gambar-artikel {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.caption {
+    color: #777;
+    font-size: 13px !important;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   JUDUL BAGIAN
+   ========================= */
+
+h2 {
+    font-size: 25px;
+    margin-top: 35px;
+    border-left: 5px solid #008f4c;
+    padding-left: 12px;
+}
+
+
+/* =========================
+   SUMBER BERITA
+   ========================= */
+
+.sumber-berita {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-top: 3px solid #008f4c;
+}
+
+.sumber-berita p {
+    font-size: 14px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    margin-top: 60px;
+    padding: 25px;
+    background-color: #008f4c;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* =========================
+   TAMPILAN HP
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .logo {
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    main {
+        width: 92%;
+    }
+}
